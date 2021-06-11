@@ -1,0 +1,7 @@
+natassiabalderston@natassias-air Desktop % cd ~
+natassiabalderston@natassias-air ~ % cd Desktop
+natassiabalderston@natassias-air Desktop % cd summer2021-webdesign-natassiabalderston
+natassiabalderston@natassias-air summer2021-webdesign-natassiabalderston % mkdir homework
+natassiabalderston@natassias-air summer2021-webdesign-natassiabalderston % cd homework
+natassiabalderston@natassias-air homework % touch homework1-2.txt
+natassiabalderston@natassias-air homework % 
