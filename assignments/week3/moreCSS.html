@@ -8,7 +8,7 @@
         <!--Internal style sheets-->
         <style>
 img{
-
+    height: 200px;
     border-width: 5px;
     border-style: solid;
     border-color: burlywood;
@@ -18,19 +18,56 @@ img{
       .spooky {
           border-color: lightcoral;
       }
-        </style>
+
+      #sunsettree {
+          border-style: dashed;
+
+        box-shadow: 10px 10px palevioletred
+      }
+div  {
+background-color: darkseagreen;
+width: 600px;
+border-color: green;
+border-style: solid;
+border-width: 5px;
+border-radius: 10px;
+color: red; }
+
+div h1 {
+    color:grey;
+}
+
+div .spooky {
+    border-color: cornflowerblue;
+}
+#dead { color: red;}
+
+            </style>
 
     </head>
     <body>
-        <h1>Dead Tree</h1>
-        <img class="spooky" src="tree.jpg" alt="Black dead tree with no leaves"
-        width="320" height="426" />
-        <br />
+        <h1><span id="dead">Dead</span> Tree</h1>
+
+        <img class="spooky" src="tree.jpg" alt="Black dead tree with no leaves" />
+       
         <img src="greentree.jpg" alt="Round green tree on a blue sky  with pink clouds" />
-        <a href="https://www.google.com/">
-        <img class="spooky" src="knottyroottree.jpg" alt="Tree with large exposed roots and a big green canopy" />
-     </a>
-     <img src="sunsettree.jpg" alt="Tree by the ocean with dramatic pink and purple sunset" />
+
+        <a href="https://www.google.com/" target="_blank"> <img class="spooky" src="knottyroottree.jpg" alt="Tree with large exposed roots and a big green canopy" /></a>
+
+        <img id="sunsettree" src="sunsettree.jpg" alt="Tree by the ocean with dramatic pink and purple sunset" />
+       
+        <div>
+            <h1>Trees</h1>
+
+            <img class="spooky" src="tree.jpg" alt="Black dead tree with no leaves" />
+           
+            <img src="greentree.jpg" alt="Round green tree on a blue sky  with pink clouds" />
+    
+            <a href="https://www.google.com/" target="_blank"> <img class="spooky" src="knottyroottree.jpg" alt="Tree with large exposed roots and a big green canopy" /></a>
+    
+            <img id="sunsettree" src="sunsettree.jpg" alt="Tree by the ocean with dramatic pink and purple sunset" />
+        </div>
+    
     </body>
 
 </html>
