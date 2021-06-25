@@ -5,13 +5,13 @@
         <meta charset="utf-8" />
         <title>Looking at HTML5 elements</title>
         <style>
-
             body{
                 margin: 0
                ;padding: 0
             }
 
-            #redbox{
+            #redbox, #purplebox{
+                display:  inline-block;
                 width: 180px;
                 height: 100px;
                 background-color: red;
@@ -23,13 +23,21 @@
                 border-radius: 20px;
             }
             
-            #greenbox{
+            #purplebox{background-color: purple;
+            width: 100px;}
+
+            #greenbox, #yellowbox{
             height: 50px;
             background-color:green;
             margin-top: 10px;
+
             
             }
-
+            #yellowbox{background-color: yellow}
+body > p{
+    display: inline;
+}
+      
         </style>
     </head>
 
@@ -43,6 +51,18 @@
             </div>
          
         </div>
+
+        <div id="purplebox">
+            <p>Goodbye</p>
+
+            <div id="yellowbox">
+                
+
+            </div>
+         
+        </div>
+
+        <p> Meow meow </p>
 
         
         <!--the header section would include logo, website name, any log in search icons, navigation. This should be the same for every webpage of the website.-->
