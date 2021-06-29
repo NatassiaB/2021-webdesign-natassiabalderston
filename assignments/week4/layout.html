@@ -7,26 +7,70 @@
         <style>
 
             #container {
-                width: 700px;
+                width: 900px;
                 margin-left: auto;
                 margin-right: auto;
             }
 
             #header {
                 background-color: thistle;
-                
+                color: indigo;
+                text-align: center;
+                font-family: "arial";
+                font-size: 23px;
+                text-transform: uppercase;
+                border-radius: 14px;
+            
+            }
+
+            #header h1 {
+                margin-block-end: 0;
             }
 
             #main {
-                background-color: skyblue;
-              
+                margin-top: 28px;
+                padding: 28px;
+                background-color: midnightblue ;
+                color: white;
+                font-family: "arial";
+                font-size: 15px;
+                border-radius: 14px;
+                line-height: 42px;
+                text-align: justify;
+                word-spacing: ;
             }
 
             #footer {
+                margin-top: 28px;
                 background-color: rosybrown;
-         
+                height: 28px;
+                border-radius: 14px;
+                font-size: 12px;
+                text-align: center;
+                text-transform: uppercase;
+                color: white;
+                font-family: arial;
             }
-    
+
+            #main p {
+                margin-block-start: 0;
+            }
+
+            #main #article {
+                display: inline-block;
+                width: 616px;
+                background-color: navajowhite;
+                padding-right: 28px;
+            }
+
+            #main #section {
+                display: inline-block;
+                width: 200px;
+                height: 200px;
+                background-color: orangered;
+                vertical-align: top;
+                border-radius: 14px;
+            }
 
         </style>
     
@@ -41,13 +85,18 @@
             </div>
             
             <div id="main">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit quia ullam eligendi sit. Dolorum non vitae voluptatibus nostrum sunt ex esse sequi? Nobis, eaque doloribus iure ratione molestiae repellat?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa quis atque, qui in quo inventore doloremque ipsam natus aut necessitatibus at nobis repellat saepe optio error? Provident, unde beatae.</p>
+                <div id="article"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo fugit quia ullam eligendi sit. Dolorum non vitae voluptatibus nostrum sunt ex esse sequi? Nobis, eaque doloribus iure ratione molestiae repellat?</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa quis atque, qui in quo inventore doloremque ipsam natus aut necessitatibus at nobis repellat saepe optio error? Provident, unde beatae.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vitae unde, cumque quis doloremque facilis iure necessitatibus quo eius delectus repudiandae nostrum maxime omnis, iusto, blanditiis quam at culpa sed?</p>
+
+                </div><div id="section">
+                </div>
+
+               
             </div>
 
             <div id="footer">
-                <p>Copyright 2021</p>
+                <p>Copyright: &copy; 2021</p>
             </div>
 
         </div>
