@@ -88,6 +88,117 @@
 
            console.log(num4);
 
+           if (true) {
+               console.log("This is true");
+           };
+              // console.log("Nice weather");
+
+               var isItRaining = false;
+               var umbrella = true;
+
+               if(isItRaining)
+               {
+                if(umbrella) {
+                    console.log("Don't forget your umbrella!");
+                }
+               } else {
+                   console.log("Recommended you take a plastic bag");
+               };
+
+            console.log("Thank you for coming!");
+
+            // Conditional operators
+
+            // comparison operators
+            "A"=="a"; //false
+            100 == "hundred"; //false
+            50 == 50; //True
+            true == false; //false
+            true == true; //true
+            false == false; //true
+
+            // !=, Must NOT be the same to be true, otherwise false. 
+
+            10 !=10; //false
+            1 !=10; //true
+            -10 !=10; //true
+
+            // > If first number is bigger than second number, then true, otherwise false.
+               100 > 5; //true
+               5 > 100; //false
+
+               // < If first number is smaller than second number, then true, otherwise false.
+
+               100 < 5; //false
+               5 < 100; //true
+
+               // >= If first number is bigger OR equeal to second number, then true, otherwise false.
+
+               100 >= 5; // true
+               100 >=100; //true
+               5 >= 100; // false
+
+               // <= If firdt number is smaller OR equal to second number, then true, otherwise false.
+               100<= 5; //false
+               100 <= 100; //true
+               5 <= 100; //true
+
+               var number = 7;
+            // logical operators
+               true && false; //false
+               true && true; //true
+               false && false; //false
+
+               number > 5 && number < 10; //
+
+               true || false; // true
+               true || true; // true
+               false || false; //false
+               number > 5 || number < 10; // true
+
+               !true; //false
+               !false; //true
+
+               //examples
+               var userAge = 0;
+                if (userAge == 21) {
+                    console.log("Congradulations, you can take a drink of water!");
+                } else if (userAge <= 0) {
+                    console.log("Please check your age");
+                } else if (userAge < 21){
+                    console.log ("Sorry but you can't drink just yet!");
+                } else if (userAge > 21){
+                    console.log("Wanna grab a glass of milk?");
+                }
+
+                // Similar to previous if  statement but using Logical Operators.
+
+                if (userAge > 0 && userAge < 21) {
+                    console.log("Cannot Drink");
+                } else if (userAge >=21){
+                    console.log("You can drink!");
+                } else {
+                    console.log("Invalid value");
+                }
+                
+                //Truthy and Falsy Values (type coercion into a boolean)
+
+                //FALSY
+                0;
+                "";
+                false;
+                null;
+                undefined; 
+
+                var income2021 = null;
+                var value;
+
+                if(undefined) {
+                    console.log("Truthy");
+                } else {
+                    console.log("Falsey");
+                }
+                
 
         </script>
     </body>
