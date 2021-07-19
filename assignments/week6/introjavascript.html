@@ -229,7 +229,53 @@
                         console.log("This number is odd");
                     
                     }
+
+                    //Nesting Loops
+
+                    for (var i = 0; i < 10; i = i + 1) {
+
+                        for (var e = 0; e < 10; e = e + 1)
+                        {
+                            for (var o = 0; o < 10; o = o + 1)
+                            {
+                                console.log("Hello!");
+                            }
+                        }
+                    }
+
                 
+
+             //Functions, group of code that runs when function name is called.
+
+             function myFirstFunction() {
+                 console.log("*");
+                 console.log("*");
+                 console.log("*");
+
+                 for(var i = 0; i < 10; i = i + 1) {
+                     console.log("$");
+                 }
+             }   
+
+           for (var i = 0; i < 100; i = i + 1) {
+           myFirstFunction(); 
+            }
+
+           console.log("done!");
+
+           // Scopes
+
+           var a = "hello";
+      
+            function mySecondFunction ()
+            {
+                var  a = "Goodbye";
+                var b = "good day";
+                console.log (a);
+            } 
+             
+
+            
                 
 
         </script>
