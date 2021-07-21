@@ -232,11 +232,11 @@
 
                     //Nesting Loops
 
-                    for (var i = 0; i < 10; i = i + 1) {
+                    for (var i = 0; i < 1; i = i + 1) {
 
-                        for (var e = 0; e < 10; e = e + 1)
+                        for (var e = 0; e < 1; e = e + 1)
                         {
-                            for (var o = 0; o < 10; o = o + 1)
+                            for (var o = 0; o < 1; o = o + 1)
                             {
                                 console.log("Hello!");
                             }
@@ -274,9 +274,72 @@
                 console.log (a);
             } 
              
+            // Arguments and Parameters
 
+            function makeItRain (value) {
+
+                var strength = value;
+                if  (strength == 1){
+                    console.log("A light shower has started");
+                }
+                else if (strength == 2) {
+                    console.log("It started raining");
+                }
+                else if (strength == 3) { 
+                    console.log ("It's raining cats and dogs!");
+                }
+            }
+
+            makeItRain(1);
+
+            makeItRain(3);
+
+            makeItRain(2);
             
+                function  hypotenuse(width, height){
+                    var width = 10;
+                    var height = 4;
+
+                    var squaredWidth = Math.pow(width, 2);
+                    var squaredHeight = Math.pow(height, 2);
+
+                    var squaredSum = squaredWidth + squaredHeight;
+
+                    var results = Math.sqrt(squaredSum);
+
+                    console.log(results);
+
+                    // console.log(Math.sqrt( (Math.pow(width, 2) + Math.pow(height, 2))))
+                }
+
+                hypotenuse(19, 11);
+
+                console.log("Hello there!")
+
+                var myVar = 10;
+
+                function exampleFunction (){
+                    var a = 100;
+                    var b = 50;
+                    return "hello";
                 
+                }
+                // var myNumber = exampleFuction();
+                // console.log(myNumber);
+
+                // Putting it all together for Functions
+
+                function add2Numbers (number1, number2) {
+                    var sum = number1 + number2;
+                    return sum;
+
+                }
+
+                var myResults = add2Numbers(16, 5);
+
+                var sendToConsole = add2Numbers (myResults, myResults);
+
+                console.log(sendToConsole);
 
         </script>
     </body>
