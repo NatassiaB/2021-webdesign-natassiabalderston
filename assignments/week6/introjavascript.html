@@ -335,12 +335,83 @@
 
                 }
 
-                var myResults = add2Numbers(16, 5);
+                var myResults = add2Numbers(7, 13);
 
                 var sendToConsole = add2Numbers (myResults, myResults);
 
                 console.log(sendToConsole);
 
-        </script>
+                // Arrays & objects
+
+                var thisIsAVariable  = "One Thing";
+
+                ThisIsAVariable = "Another thing";
+
+                var firstDay = "Monday";
+                var secondDay = "Tuesday";
+
+                // etc.
+
+                var myArray = [];
+
+                var mySecondArray = [1, 2, 3, 4, 5];
+                //         Indexes:  0  1   2  3  4
+                var myThirdArray = ["A", "B", "C"];
+                //                   1    2    3
+
+
+                console.log(mySecondArray);
+
+                // Array Indexes = an "address" of an item in an array
+                // Array Element = at "item" in an array/
+                // Indexes start from 0, not 1!
+
+                var myNum = mySecondArray [3];
+
+                console.log(myNum);
+
+                var myTest = myThirdArray[3];
+
+                console.log(myThirdArray);
+
+                // Array Methods
+
+                // Getting the LAST value in an array. Also removes it from the Array
+
+                console.log (myThirdArray.pop());
+                console.log(myThirdArray);
+
+                // Putting a value at the END of the array.
+
+                myThirdArray.push("c");
+
+                console.log(myThirdArray);
+
+                console.log(myThirdArray.shift());
+                console.log(myThirdArray);
+
+                // Putting a value at the START of the array.
+
+                myThirdArray.unshift("a");
+
+                console.log(myThirdArray);
+
+                // Also very useful, returns the total count of elements in that array
+
+                console.log(myThirdArray.length);
+
+                var myRandomArray = [10, 600, "hello", true];
+                var myProperArray = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+                var myEmployeeSalaries = [16000, 21000, 40000, 7000];
+                myEmployeeSalaries[1] = 23000;
+
+                var mapShapeCoords = [[14, 28], [19, 36], [8,32]];
+                console.log(mapShapeCoords);
+
+                mapShapeCoords[2][1];
+                mapShapeCoords[0][0];
+                mapShapeCoords[2][0] = 9;
+                console.log(mapShapeCoords);
+</script>
     </body>
     </html>
