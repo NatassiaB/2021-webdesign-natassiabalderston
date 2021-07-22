@@ -412,6 +412,48 @@
                 mapShapeCoords[0][0];
                 mapShapeCoords[2][0] = 9;
                 console.log(mapShapeCoords);
+
+                // Objects
+
+                var myFirstObject = {};
+
+                if (false) {}
+                            
+                var mySecondObject = {
+                    "name": "Natassia", "age": 34};
+
+                    var myEmployee1 = ["Natassia", 34, "part-time", "Carrie Dove"];
+
+                    var myEmployee2 = {
+                        "name": "Natassia", 
+                        "age": 34, 
+                        "status": "part-time", 
+                        "employer": "Carrie Dove",
+                        "active": "true"
+                    };
+
+                    console.log (myEmployee2["status"]);
+
+                    myEmployee2.status;
+                    myEmployee2.age;
+                    console.log(myEmployee2.active);
+
+                    myEmployee2.salary = "50000";
+
+                    console.log(myEmployee2);
+                    
+
+                    var myThirdObject = {
+                    myProperty: 10,
+                    myMethod: function sayHello() {
+                        console.log("Hello");
+                    }
+                };
+
+                console.log(myThirdObject.myproperty);
+
+                myThirdObject.myMethod();
+                myThirdObject.sayHello();
 </script>
     </body>
     </html>
