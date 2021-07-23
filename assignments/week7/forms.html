@@ -9,22 +9,59 @@
     <style></style>
 </head>
 <body>
-    <form>
+    <form id="signup">
         <label for="fname">First Name:</label>
         <input type="text" name="fname" id="fname" />
-        <input type="button" value="Press me!" />
+        <input type="button" value="Press me!" id = "mybutton"/>
         <p>Add to mailing list?</p>
         <label for="mailinglist1">Yes!</label>
-        <input type="radio" name="mailinglist" id="mailinglist1" value="yes"/>
+        <input type="radio" name="mailinglist" id="mailinglist1" value="yes" checked />
         <label for="mailinglist2">No!</label>
         <input type="radio" name="mailinglist" id="mailinglist2" value="no" />
         <br/>
         <label for="eula1">Check to agree to EULA</label>
         <input type="checkbox" name="eula" id="eula1" value="yes" />
-    </br>
+        </br>
         <input type="reset" />
         <input type="submit" />
     </form>
+
+    <script>
+
+        var myButton = document.getElementById("mybutton");
+        mybutton.addEventListener("click" , function () {console.log});
+
+        var myFunction = function () {
+            console.log("Hello");
+        };
+
+      setTimeout(myFunction, 3000);
+
+      setTimeout(function() {
+          console.log ("Goodbye!");
+      }, 4000);
+
+        myFunction();
+
+        function myFunction2() {
+            console.log("Hello!");
+        }
+        // setTimeout( ,3000 );
+
+        var myForm = document.getElementById("signup");
+
+       var myTextBox = myForm.elements["fname"];
+
+       var userInput = myTextBox.value;
+
+       var pargraph = document.getElementByID("output");
+
+       paragraph.innerHTML = userInput;
+
+       console.log(userInput);
+   
+
+    </script>
     
 </body>
 </html>
