@@ -1,0 +1,13 @@
+Portfolios:
+
+https://jorgeatgu.com/: I like the simplicity, it’s easy to understand, it’s easy on the eyes. I dislike the color choices, it’s unclear looking at the homepage what the site is about, and I don’t like the choice of fonts.
+
+“Jorge Aznar” is the header. The area under “Projects” and “Speaking * Podcasts” is the main. The footer is the contact links at the bottom.
+
+http://www.justinaguilar.com/index.html: I like the fonts, the use of yellow, and the font size choice. I dislike how the cursor become a ball, I don’t like the changing photos, I don’t like that the yellow font doesn’t always have contrasting colors behind it which makes it difficult to read.
+
+The first paragraph is the header. From “Shopify” to the last paragraph is the body. The footer is the empty space at the bottom. 
+
+https://www.jessicahische.is/: I like the colors, the squiggles underlining the words is unique, and I like that it’s very informative. I dislike that it’s a little overwhelming how much is on this page, I think the email helper at the bottom is unnecessary, it’s hard to pick a third thing because I think this site is really good. 
+
+The header is her name and the links to the different pages. The body is everything under that until the pencil. The copyright information is the footer. 
